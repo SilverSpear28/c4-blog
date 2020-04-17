@@ -1,5 +1,6 @@
 import React from 'react'
 import SecondBlogLeft from './second-blog-left'
+import MorePost from './morepost'
 
 class SecondBlog extends React.Component{
     constructor(props){
@@ -29,6 +30,12 @@ class SecondBlog extends React.Component{
                         </div>
                     </div>
                     </div>
+                    <div className='c4-second-blog-head'>
+                    <h1>More Blog Posts</h1>
+                    <div className='c4-more-blog-post'>
+                        <MorePost />
+                    </div>
+                </div>
             </div>
         )
     }

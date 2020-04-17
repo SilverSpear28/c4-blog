@@ -9,6 +9,7 @@ class SecondBlogLeft extends React.Component{
     render(){
         return(
         <div className='c4-second-blog-left'>
+            <div className='left'>
             <BlogCard />
             <BlogCard />
             <BlogCard />
@@ -17,7 +18,9 @@ class SecondBlogLeft extends React.Component{
             <BlogCard />
             <BlogCard />
             <BlogCard />
+            </div>
         </div>
+
         )
     }
 }
