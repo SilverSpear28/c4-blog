@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../components/carosel'
+import MainCard from '../components/cards/main-card'
 
 class Blogs extends React.Component{
     constructor(props){
@@ -15,6 +16,11 @@ class Blogs extends React.Component{
                     </p>
                 </div>
                 <Carousel />
+                <div className='c4-main-card'>
+                    <MainCard />
+                    <MainCard />
+                    <MainCard />
+                </div>
             </div>
         )
     }
