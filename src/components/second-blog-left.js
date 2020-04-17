@@ -12,6 +12,11 @@ class SecondBlogLeft extends React.Component{
             <BlogCard />
             <BlogCard />
             <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
         </div>
         )
     }
