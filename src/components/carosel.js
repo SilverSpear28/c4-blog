@@ -40,12 +40,21 @@ class Carousel extends React.Component {
                 <img src={url} />
                 <div className="layer">
                     <div className="c4-blog-img-details">
+                        <div className="c4-blog-tag">
+                            <div className="dev-head">
+                                CATS
+                            </div>
+                            <div className="dev-date">
+                                APRIL 17,2020
+                            </div>
+                        </div>
                         <div className="h">
-                            We must lub cats!!!
+                            Why isn’t my cat using the litter box?
                         </div>
                         <div className="d">
-                            and lub anime!!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!
                         </div>
+                        <button className="c4-carousel-button">Expore</button>
                     </div>
                 </div>
             </div>
