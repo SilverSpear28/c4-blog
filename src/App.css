@@ -263,6 +263,11 @@ body{
   height: 172px;
   border: 1px solid rgba(0,0,0,0.1);
   display: flex;
+  margin-bottom: 28px;
+}
+
+.more-post-card:hover{
+  box-shadow: 0 0 4px rgba(0, 174, 255, 0.4);
 }
 
 .more-post-card img{
@@ -280,4 +285,20 @@ body{
 
 .more-post-card-h{
   margin: auto; 
+}
+
+.pop-box{
+  border: none;
+}
+
+.popular-head{
+  font-weight: lighter;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.pop-post-card-h{
+  font-size: 1rem;
+  font-weight: lighter;
 }
