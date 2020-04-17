@@ -7,6 +7,7 @@ body{
 }
 
 .c4-blog {
+  position: relative;
   width: 75%;
   margin: auto;
 }
@@ -202,6 +203,7 @@ body{
 }
 
 .blog-card-h{
+  position: relative;
   text-align: left;
   font-size: 18px;
   color: black;
@@ -254,7 +256,7 @@ body{
 }
 
 .c4-more-blog-post{
-  height: 1000px;
+  margin-bottom: 3rem;
   width: 66.6666%;
 }
 
@@ -299,6 +301,67 @@ body{
 }
 
 .pop-post-card-h{
+  position: relative;
   font-size: 1rem;
+  font-weight: lighter;
+}
+
+.c4-footer{
+  position: relative;
+  background-color: black;
+  height: 650px;
+  top: 7rem;
+  padding: 5rem;
+}
+
+.footer-container{
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+
+.paragraph{
+  width: 40%;
+}
+
+.paragraph h3{
+  float: left;
+  color: white;
+  font-weight: lighter;
+}
+
+.paragraph img{
+  width: 100%;
+}
+
+.paragraph p{
+  color: rgba(255, 255, 255, 0.575);
+  text-align: left;
+  line-height: 36px;
+  font-weight: lighter;
+}
+
+.latest{
+  margin-left: 10%;
+  width: 50%;
+  display: flex;
+}
+
+.latest-posts{
+  width: 50%;
+}
+
+.links-social{
+  width: 50%;
+}
+
+.latest-posts h3{
+  color: white;
+  font-weight: lighter;
+}
+
+.links h3{
+  color: white;
   font-weight: lighter;
 }
