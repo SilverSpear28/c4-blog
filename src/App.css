@@ -2,3 +2,11 @@
   text-align: center;
 }
 
+.c4-blog {
+  width: 75%;
+  margin: auto;
+}
+
+.c4-blog-heading p{
+  font-size: 90px;
+}

@@ -10,9 +10,9 @@ class Blogs extends React.Component{
         return(
             <div className='c4-blog'>
                 <div className='c4-blog-heading'>
-                    <h1>
+                    <p>
                         C4-Blogs
-                    </h1>
+                    </p>
                 </div>
                 <Carousel />
             </div>
@@ -20,3 +20,5 @@ class Blogs extends React.Component{
     }
 
 }
+
+export default Blogs
