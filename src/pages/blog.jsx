@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from '../components/carosel'
 
 class Blogs extends React.Component{
     constructor(props){
@@ -13,7 +14,7 @@ class Blogs extends React.Component{
                         C4-Blogs
                     </h1>
                 </div>
-                
+                <Carousel />
             </div>
         )
     }
