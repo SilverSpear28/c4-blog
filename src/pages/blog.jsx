@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from '../components/carosel'
 import MainCard from '../components/cards/main-card'
+import SecondBlog from '../components/second-blog'
 
 class Blogs extends React.Component{
     constructor(props){
@@ -21,6 +22,7 @@ class Blogs extends React.Component{
                     <MainCard />
                     <MainCard />
                 </div>
+                <SecondBlog />
             </div>
         )
     }
